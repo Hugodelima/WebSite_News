@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-wrapper{
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: black;
+  align-items: center;
+}
+.brand-logo{
+  margin-right: 1rem;
+}
+.list{
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+}
+.list>li :hover{
+  color: orange;
+}
+.footer{
+  text-align: center;
+  padding: 1rem;
+  background-color: black;
+}

@@ -26,6 +26,35 @@
 }
 .footer{
   text-align: center;
-  padding: 1rem;
   background-color: black;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 2.5rem; 
+  padding-top: 1rem;
+}
+
+
+
+.listCard{
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+@media (max-width:500px){
+  .list{
+    gap: 0.5rem;
+  }
+  .brand-logo{
+    margin-right: 1rem;
+  }
+  .nav-wrapper{
+    padding: 0.5rem;
+ 
+  }
 }

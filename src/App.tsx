@@ -1,4 +1,5 @@
 import './App.css'
+import CardNews from './components/CardNews'
 
 function Header(){
   return(
@@ -28,6 +29,21 @@ function App() {
   return (
     <>
       <Header/>
+      <div className='listCard'>
+        <CardNews linkDaImagem={'https://images.pexels.com/photos/942872/pexels-photo-942872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'} tituloDaNoticia={'2323232'} descricaoDaNoticia={'233233232'}/>
+        <CardNews linkDaImagem={'https://images.pexels.com/photos/942872/pexels-photo-942872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'} tituloDaNoticia={'2323232'} descricaoDaNoticia={'233233232'}/>
+        <CardNews linkDaImagem={'https://images.pexels.com/photos/942872/pexels-photo-942872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'} tituloDaNoticia={'2323232'} descricaoDaNoticia={'233233232'}/>
+    
+       
+
+
+        
+    
+
+
+      </div>
+      
+      
       <Footer/>
     </>
   )
